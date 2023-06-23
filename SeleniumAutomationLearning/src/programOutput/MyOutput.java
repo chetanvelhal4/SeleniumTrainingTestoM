@@ -1,6 +1,7 @@
 package programOutput;
 import arithmaticOperator.ArithmaticOperator;
 import learingIfElse.DisplayDayofWeek;
+import learingIfElse.FindNumberOfDaysInMonth;
 import learingIfElse.ProgramOne;
 
 import java.util.Scanner;
@@ -30,6 +31,12 @@ public class MyOutput {
 		
 		DisplayDayofWeek myobjtwo = new DisplayDayofWeek();
 		DisplayDayofWeek.mydayofweek();
+		
+		FindNumberOfDaysInMonth myobjthree = new FindNumberOfDaysInMonth();
+		FindNumberOfDaysInMonth.myDayOfMonth();
+		
+		
+		
 	}
 
 }
