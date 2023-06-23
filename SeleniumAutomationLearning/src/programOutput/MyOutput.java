@@ -1,5 +1,6 @@
 package programOutput;
 import arithmaticOperator.ArithmaticOperator;
+import learingIfElse.DisplayDayofWeek;
 import learingIfElse.ProgramOne;
 
 import java.util.Scanner;
@@ -26,6 +27,9 @@ public class MyOutput {
 		
 		ProgramOne myobjone = new ProgramOne();
 		myobjone.findGreatestNumber();
+		
+		DisplayDayofWeek myobjtwo = new DisplayDayofWeek();
+		DisplayDayofWeek.mydayofweek();
 	}
 
 }
