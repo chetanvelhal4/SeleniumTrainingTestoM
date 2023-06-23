@@ -2,6 +2,7 @@ package programOutput;
 import arithmaticOperator.ArithmaticOperator;
 import learingIfElse.DisplayDayofWeek;
 import learingIfElse.FindNumberOfDaysInMonth;
+import learingIfElse.NumberNeagativeOrPositive;
 import learingIfElse.ProgramOne;
 
 import java.util.Scanner;
@@ -29,11 +30,17 @@ public class MyOutput {
 		ProgramOne myobjone = new ProgramOne();
 		myobjone.findGreatestNumber();
 		
+		//Find out Day in Week
 		DisplayDayofWeek myobjtwo = new DisplayDayofWeek();
 		DisplayDayofWeek.mydayofweek();
 		
+		//Find out Days in Month
 		FindNumberOfDaysInMonth myobjthree = new FindNumberOfDaysInMonth();
 		FindNumberOfDaysInMonth.myDayOfMonth();
+		
+		// find out Entered number is negative or positive
+		NumberNeagativeOrPositive myobjfour = new NumberNeagativeOrPositive();
+		NumberNeagativeOrPositive.FindNumberIsPositiveOrNegative();
 		
 		
 		
