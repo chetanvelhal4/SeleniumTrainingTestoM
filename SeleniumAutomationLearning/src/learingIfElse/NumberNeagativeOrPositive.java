@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class NumberNeagativeOrPositive {
 
 	
-	public static void FindNumberIsPositiveOrNegative()
+	public static void main(String[] args) 
 	{
 		Scanner mynumber = new Scanner(System.in);
 		System.out.println("Enter Any number to check if it is positive or Negative");

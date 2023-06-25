@@ -9,7 +9,7 @@ public class ProgramOne {
 
 	//Take three numbers from the user and print the greatest number ?
 	
-	public void findGreatestNumber()
+	public static void main(String[] args) 
 	{
 		
 		//Take input from user for 
@@ -26,13 +26,13 @@ public class ProgramOne {
 		        
 		       if (a>b)
 		       {
-		    	   System.out.println("Number a is Greater" );
+		    	   System.out.println("First Number is Greater" );
 		       }else if (b>C)
 		       {
-		    	   System.out.println("Number B is Greater");
+		    	   System.out.println("Second Number is Greater");
 		       }else if (C>a)
 		       {
-		    	   System.out.println("Number C is Greater");
+		    	   System.out.println("Thired Number is Greater");
 		       }
 		      
 	}

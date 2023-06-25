@@ -1,6 +1,6 @@
 package arithmaticOperator;
 
-public class ArithmaticOperator {
+public  class ArithmaticOperator {
 	
 	public static void arithmaticCalculation()
 	{

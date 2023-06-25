@@ -2,8 +2,11 @@ package learingIfElse;
 import java.util.Scanner;
 
 public class DisplayDayofWeek {
+
+
 	
-	public static void mydayofweek()
+//	public static void mydayofweek()
+	public static void main(String[] args) 
 	{
 		Scanner scanday = new Scanner(System.in);
 		System.out.println("Please provide nuber to find day between 1 to 7 ");

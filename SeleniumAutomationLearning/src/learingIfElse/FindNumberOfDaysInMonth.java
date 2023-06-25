@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class FindNumberOfDaysInMonth {
 	
 	
-	public static void myDayOfMonth()
+	//public static void myDayOfMonth()
+	public static void main(String[] args) 
 	
 	{
 	Scanner MyScan = new Scanner(System.in);
