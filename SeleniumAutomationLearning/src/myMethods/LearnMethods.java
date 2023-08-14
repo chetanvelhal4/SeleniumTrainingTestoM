@@ -1,4 +1,4 @@
-package learnMethods;
+package myMethods;
 
 public class LearnMethods {
 
