@@ -18,6 +18,7 @@ public class ReserveString {
 		int k = mstring.length();
 		System.out.println("lenght of string is " + k);
 		char ch[] = mstring.toCharArray();
+		
 
 		for (int i = k - 1; i >= 0; k--) {
 			// System.out.println(i);
